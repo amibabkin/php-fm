@@ -11,7 +11,7 @@ class Response
   ) {
   }
 
-  public function send()
+  public function send(): void
   {
     echo $this->content;
   }

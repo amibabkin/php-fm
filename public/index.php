@@ -8,12 +8,6 @@ use Somecode\Framework\http\Kernel;
 
 $request = Request::createFromGlobals();
 
-// $clientContent = '<h1>Hello</h1>';
-
-// $response = new Response($clientContent, 200, []);
-
-// $response->send();
-
 $kernel = new Kernel();
 
 $response = $kernel->handle($request);
